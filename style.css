@@ -1,3 +1,150 @@
 body {
-    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.logo{
+    width: 100px;
+}
+/* Styling af navbaren er fundet på w3schools*/
+.topnav { 
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  /* Gør at teksten bliver gemt under iconet  */
+  .topnav #navbar {
+    display: none;
+  }
+  
+  /* Styling af tekst og icon i burgermenu  */
+  .topnav a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 30px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+  }
+  
+  /* Styling af iconet */
+  .topnav a.icon {
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Hover effekt på iconet */
+  .topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Styling af det aktive link */
+  .active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+.forside { 
+    width: 100%;
+    margin-bottom: 0;
+}
+.flex-container{
+    background-color: #92877B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex.produktion{
+    flex-direction: column;
+}
+.hylde{
+    width: 100%;
+}
+.container-info {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.bottom-left { /* Styling af knappen på billedet*/
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-size: 20px;
+    background-color: #92877B;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.bottom-left:hover { /*Hover effekt, virker kun på web */
+    background-color: #7d7d7d;
+    color: black;
+}
+.arbejde {
+    width: 100%;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    background-color: #92877B;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.bottom-right:hover {
+    background-color: #7d7d7d;
+    color: black;
+}
+.træ {
+    width: 100%;
+}
+
+hr{ 
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    align-items: center;
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+footer {
+    background-color: #707071;
+    color: black;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+footer h2 {
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+footer p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icon {
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+}
+.some {
+    margin-left: 100px;
 }

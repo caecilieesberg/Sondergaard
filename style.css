@@ -1,15 +1,18 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
     margin: 0;
 }
 p {
+    font-family: Malayalam Sangam MN;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
 }
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
+    text-align: center;
 }
 .logo{
     width: 100px;
@@ -36,8 +39,8 @@ h2 {
     display: block;
   }
   
-  /* Styling af iconet */
-  .topnav a.icon {
+  /* Styling af ikonet */
+.topnav a.icon {
     background: rgb(255, 255, 255);
     display: block;
     position: absolute;
@@ -46,13 +49,13 @@ h2 {
   }
   
   /* Hover effekt på iconet */
-  .topnav a:hover {
+.topnav a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
   }
   
   /* Styling af det aktive link */
-  .active {
+.active {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
   }
@@ -60,11 +63,15 @@ h2 {
     width: 100%;
     margin-bottom: 0;
 }
+.fa-solid {
+   font-size: 80px;
+   margin-top: 80px;
+}
 .flex-container{
     background-color: #92877B;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 .flex.produktion{
     flex-direction: column;

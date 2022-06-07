@@ -1,12 +1,14 @@
 body {
     margin: 0;
 }
+
 p {
     font-family: Malayalam Sangam MN;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
 }
+
 h2 {
     font-family: 'Times New Roman', Times, serif;
     margin-left: 20px;
@@ -14,77 +16,88 @@ h2 {
     margin-top: 40px;
     text-align: center;
 }
-.logo{
+
+.logo {
     width: 100px;
 }
+
 /* Styling af navbaren er fundet på w3schools*/
-.topnav { 
+.topnav {
     overflow: hidden;
     background-color: #ffffff;
     position: relative;
-  }
-  
-  /* Gør at teksten bliver gemt under iconet  */
-  .topnav #navbar {
+}
+
+/* Gør at teksten bliver gemt under iconet  */
+.topnav #navbar {
     display: none;
-  }
-  
-  /* Styling af tekst og icon i burgermenu  */
-  .topnav a {
+}
+
+/* Styling af tekst og icon i burgermenu  */
+.topnav a {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     padding: 30px 32px;
     text-decoration: none;
     font-size: 25px;
     display: block;
-  }
-  
-  /* Styling af ikonet */
+}
+
+/* Styling af ikonet */
 .topnav a.icon {
     background: rgb(255, 255, 255);
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
-  
-  /* Hover effekt på iconet */
+}
+
+/* Hover effekt på iconet */
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-  }
-  
-  /* Styling af det aktive link */
+}
+
+/* Styling af det aktive link */
 .active {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-  }
-.forside { 
+}
+
+.forside {
     width: 100%;
     margin-bottom: 0;
 }
-.fa-solid { /* ikonerne der er blevet brugt under billedet */
-   font-size: 80px;
-   margin-top: 80px;
+
+.fa-solid {
+    /* ikonerne der er blevet brugt under billedet */
+    font-size: 80px;
+    margin-top: 80px;
 }
-.flex-container{
+
+.flex-container {
     background-color: #92877B;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.flex.produktion{
+
+.flex.produktion {
     flex-direction: column;
 }
-.hylde{
+
+.hylde {
     width: 100%;
 }
+
 .container-info {
     position: relative;
     text-align: center;
     color: white;
-  }
-.bottom-left { /* Styling af knappen på billedet*/
+}
+
+.bottom-left {
+    /* Styling af knappen på billedet*/
     position: absolute;
     bottom: 50px;
     left: 0px;
@@ -95,13 +108,17 @@ h2 {
     border-radius: 8px;
     transition-duration: 0.4s;
 }
-.bottom-left:hover { /*Hover effekt, virker kun på web */
+
+.bottom-left:hover {
+    /*Hover effekt, virker kun på web */
     background-color: #7d7d7d;
     color: black;
 }
+
 .arbejde {
     width: 100%;
 }
+
 .bottom-right {
     position: absolute;
     bottom: 50px;
@@ -113,15 +130,17 @@ h2 {
     border-radius: 8px;
     transition-duration: 0.4s;
 }
+
 .bottom-right:hover {
     background-color: #7d7d7d;
     color: black;
 }
+
 .træ {
     width: 100%;
 }
 
-hr{ 
+hr {
     width: 90%;
     height: 2px;
     background-color: black;
@@ -130,6 +149,7 @@ hr{
     padding-top: 0;
     margin-top: 0;
 }
+
 footer {
     background-color: #707071;
     color: black;
@@ -137,27 +157,53 @@ footer {
     margin-bottom: 0px;
     margin-top: 30px;
 }
+
 footer h2 {
     padding-top: 20px;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-left: 20px;
 }
+
 footer p {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .icon {
     font-size: 50px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 5px;
 }
+
 .some {
     margin-left: 100px;
 }
 
 /* Om Søndergaard Design */
 
-h1{
+
+.side-deling {
+    background-color: #c7c5c5;
+}
+
+.kasper {
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+
+}
+
+h1 {
     text-align: center;
+}
+
+.produkt{
+  display: block;
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }

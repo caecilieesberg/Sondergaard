@@ -27,7 +27,17 @@ h2 {
     background-color: #ffffff;
     position: relative;
 }
-
+/* Produkter grid design */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+.grid-materialer .grid-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
 /* Gør at teksten bliver gemt under iconet  */
 .topnav #navbar {
     display: none;
@@ -178,6 +188,7 @@ footer p {
 
 .some {
     margin-left: 100px;
+    text-align: center;
 }
 
 /* Om Søndergaard Design */

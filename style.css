@@ -1,5 +1,14 @@
+:root {
+    --title-størrelse: 20px;
+}
+
 body {
     margin: 0;
+    font-family: Malayalam Sangam MN;
+}
+
+button {
+    cursor: pointer;
 }
 
 p {
@@ -10,7 +19,6 @@ p {
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 40px;
@@ -19,24 +27,17 @@ h2 {
 
 .logo {
     width: 100px;
+    margin-left: 20px;
 }
 
 /* Styling af navbaren er fundet på w3schools*/
 .topnav {
     overflow: hidden;
     background-color: #ffffff;
-    position: relative;
-}
-/* Produkter grid design */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 15px;
-}
-.grid-materialer .grid-item {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
 }
 /* Gør at teksten bliver gemt under iconet  */
 .topnav #navbar {
@@ -52,6 +53,7 @@ h2 {
     font-size: 25px;
     display: block;
 }
+
 
 /* Styling af ikonet */
 .topnav a.icon {
@@ -77,11 +79,12 @@ h2 {
 .forside {
     width: 100%;
     margin-bottom: 0;
+    margin-top: 100px;
 }
 
 .fa-solid {
     /* ikonerne der er blevet brugt under billedet */
-    font-size: 80px;
+    font-size: 50px;
     margin-top: 80px;
 }
 
@@ -90,6 +93,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: -10px;
 }
 
 .flex.produktion {
@@ -104,6 +108,7 @@ h2 {
     position: relative;
     text-align: center;
     color: white;
+    
 }
 
 .bottom-left {
@@ -117,6 +122,11 @@ h2 {
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
+    
+}
+
+.skjul-mobil {
+    display: none;
 }
 
 .bottom-left:hover {
@@ -148,6 +158,9 @@ h2 {
 
 .træ {
     width: 100%;
+}
+.container-skjul {
+    display: none;
 }
 
 hr {
@@ -181,19 +194,16 @@ footer p {
 }
 
 .icon {
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
     padding: 5px;
 }
 
 .some {
-    margin-left: 100px;
     text-align: center;
 }
 
 /* Om Søndergaard Design */
-
-
 .side-deling {
     background-color: #c7c5c5;
 }
@@ -217,4 +227,277 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+}
+/* Produkter grid design */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+.grid-materialer .grid-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+.placering{
+    height: 40%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.mobil_billede{
+    height: 40%;
+    width: 100%;
+}
+
+.mobil_billede_container{
+    margin-bottom: 3rem;
+}
+
+.container{
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.main{
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 2rem;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.skriv{
+    margin-top: 3rem;
+}
+
+#besked{
+    resize: none;
+    height: 6rem;
+}
+
+#kontakt_mail{
+    display: flex;
+    flex-direction: column;
+    padding-right:20%;
+}
+
+label{
+    height: 2.5rem;
+}
+
+input{
+    height: 1.5rem;
+}
+
+.sButton{
+    margin-top: 1rem;
+    width: 35%;
+    border: 0px solid black;
+    height: 2rem;
+    background-color: #B5B5B5;
+
+}
+
+@media only screen and (min-width: 800px){
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    }
+.topnav #navbar {
+    display: flex;
+    flex-direction: row;
+}
+.topnav a.icon {
+    display: none;
+}
+.topnav a {
+    color: rgb(0, 0, 0);
+    padding: 55px 10px 10px;
+    font-size: 15px;
+    float: right;
+    display: block;
+}    
+.logo {
+    width: 25%; 
+}
+.flex-container {
+    background-color: #92877B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -50px;
+}
+.flex-produktion {
+    padding: 30px;
+}
+h2{
+    font-size: 40px;
+}
+p {
+    font-size: 25px;
+}
+.bottom-left {
+    /* Styling af knappen på billedet*/
+    bottom: 80px;
+    font-size: 30px;
+    padding: 30px;
+}
+.bottom-right {
+    bottom: 80px;
+    padding: 30px;
+    font-size: 30px;
+}
+.container { 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'img img'
+    ;
+    margin-top: 200px;
+}
+.mobil_billede {
+    width: 110%;
+    margin-top: 50px;
+    
+
+}
+
+@media only screen and (min-width: 1000px){
+.forside {
+    width: 100%;
+}
+.logo {
+    width: 7%; 
+    margin-left: 70px;
+}
+
+.topnav {
+    justify-content: space-between;
+}
+
+#navbar {
+    align-items: center;
+}
+
+#navbar a{
+    font-size: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.flex-produktion {
+    padding: 10px;
+}
+.fa-solid {
+    /* ikonerne der er blevet brugt under billedet */
+    font-size: 80px;  
+} 
+h2 {
+    font-size: 35px;
+}  
+p {
+    font-size: 15px;
+}
+.hylde {
+    margin-top: 40px;
+}
+
+.container-først{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'img info'
+    ;
+    margin: 50px 0;
+}
+
+.container-box {
+    grid-area: info;
+}
+
+.container-info {
+    grid-area: img;
+}
+
+.container-omvendt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'info img'
+    ;
+}
+
+.container-box {
+    grid-area: info;
+}
+
+.container-info {
+    grid-area: img;
+}
+
+.bottom-left, .bottom-right, .skjul-mobil {
+  display: none;
+}
+.bottom-left-web {
+    display: inline;
+    font-size: 15px;
+    background-color: #92877B;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    text-decoration: none;
+    color: black;
+}
+.bottom-right-web {
+    display: block;
+    font-size: 15px;
+    background-color: #92877B;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    margin: 80px;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+.container-først p {
+    text-align: left;
+    margin-left: 80px;
+    line-height: 40px;
+}
+.container-først h2 {
+    text-align: left;
+    margin-left: 80px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.footer p { 
+    text-align: left;
+    justify-content: space-evenly;
+    line-height: 40px;
+}
+.footer h2 {
+    text-align: left;
+}
 }

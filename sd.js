@@ -4,8 +4,16 @@ function myFunction() {
       x.style.display = "none";
     } else {
       x.style.display = "block";
+      x.style.height = "100vh";
     }
   } /*Ovenstående er fundet på w3schools*/
+
+const burgerMenu = document.querySelector('.burger-menu');
+const burgerShow = document.querySelector('nav');
+
+burgerMenu.addEventListener("click", () => {
+    burgerShow.classList.toggle("show-burger");
+});
 
 document.getElementById("bottom-left").addEventListener("mouseover", mouseOver);
 document.getElementById("bottom-left").addEventListener("mouseout", mouseOut);
@@ -15,7 +23,7 @@ document.getElementById("bottom-left").style.color = "white";
 }
 
 function mouseOut() {
-  document.getElementById("bottom-left").style.color = "black";
+  document.getElequerysementById("bottom-left").style.color = "black";
 }
 
 document.getElementById("bottom-right").addEventListener("mouseover", mouseOver);

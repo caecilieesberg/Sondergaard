@@ -1,0 +1,735 @@
+:root {
+    --title-størrelse: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Malayalam Sangam MN;
+    background-color: #f0ebe4;
+}
+
+button {
+    cursor: pointer;
+}
+
+p {
+    font-family: Malayalam Sangam MN;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+/* Styling af navbaren er fundet på w3schools*/
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+/* Gør at teksten bliver gemt under iconet  */
+.topnav #navbar {
+    display: none;
+}
+
+/* Styling af tekst og icon i burgermenu  */
+.topnav a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 30px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+
+/* Styling af ikonet */
+.topnav a.icon {
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Hover effekt på iconet */
+.topnav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* Styling af det aktive link */
+.active {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.forside {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.fa-solid {
+    /* ikonerne der er blevet brugt under billedet */
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.flex-container {
+    background-color: #92877B;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.flex.produktion {
+    flex-direction: column;
+}
+
+.hylde {
+    width: 100%;
+}
+
+.container-info {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.bottom-left {
+    /* Styling af knappen på billedet*/
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-size: 20px;
+    background-color: #92877B;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+
+}
+
+.skjul-mobil {
+    display: none;
+}
+
+.bottom-left:hover {
+    /*Hover effekt, virker kun på web */
+    background-color: #7d7d7d;
+    color: black;
+}
+
+.arbejde {
+    width: 100%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    background-color: #92877B;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.bottom-right:hover {
+    background-color: #7d7d7d;
+    color: black;
+}
+
+.træ {
+    width: 100%;
+}
+
+.container-skjul {
+    display: none;
+}
+
+hr {
+    width: 90%;
+    height: 2px;
+    background-color: black;
+    align-items: center;
+    border: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+footer {
+    background-color: #707071;
+    color: black;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+footer p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+
+.some {
+    text-align: center;
+}
+
+/* Om Søndergaard Design */
+.side-deling {
+    background-color: #c7c5c5;
+    width: 100%;
+}
+
+.kasper {
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.produkt {
+    display: block;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+/* Produkter grid design */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.grid-materialer .grid-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+.placering {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.mobil_billede {
+    height: 40%;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.mobil_billede_container {
+    margin-bottom: 3rem;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.main {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 2rem;
+}
+
+.align-left {
+    text-align: left;
+}
+
+#besked {
+    resize: none;
+    height: 6rem;
+}
+
+#kontakt_mail {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20%;
+}
+
+label {
+    height: 2.5rem;
+}
+
+input {
+    height: 1.5rem;
+}
+
+.sButton {
+    margin-top: 1rem;
+    width: 35%;
+    border: 0px solid black;
+    height: 2rem;
+    background-color: #B5B5B5;
+
+}
+
+
+.main-container {
+    margin-top: 133.3px;
+    /* Højden af navbaren*/
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.produkt-sektion {
+    padding-top: 0.2rem;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-grid {
+    display: grid; 
+  grid-template-columns: 1.4fr 0.6fr; 
+  grid-template-rows: 1fr; 
+  gap: 1em 1em; 
+  grid-template-areas: 
+    "grid20 grid21"; 
+}
+
+.mobile-view h1 {
+    margin-bottom: 3rem;
+}
+
+.mobile-view p {
+    margin-top: 3rem;
+}
+
+.mobile-view > .some {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.mobile-view .icon {
+    font-size: 3rem;
+}
+
+.grid-item20 { grid-area: grid20; }
+.grid-item21 { grid-area: grid21; }
+
+.grid-container2 {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 400px);
+    gap: 1em 1em;
+    grid-template-areas:
+        "grid10 grid10 grid11 grid11"
+        "grid10 grid10 grid12 grid12";
+}
+
+.grid-item10 {
+    grid-area: grid10;
+}
+
+.grid-item11 {
+   padding-left: 8rem;
+    grid-area: grid11;
+}
+
+.grid-item11 > h1 {
+    text-align: left;
+}
+
+.grid-item11 > p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-item11 > .some {
+    margin-top: 2rem;
+    text-align: left;
+}
+.grid-item11 .icon {
+    font-size: 3rem;
+}
+
+.grid-item12 {
+    grid-area: grid12;
+}
+
+
+.grid-container1 {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 520px 520px;
+    gap: 1rem 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid1 grid1 grid1 grid1 grid1 grid2 grid2 grid2 grid2"
+        "grid3 grid3 grid3 grid4 grid4 grid4 grid5 grid5 grid5";
+}
+
+.grid-container1 img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.grid-item1 {
+    grid-area: grid1;
+}
+
+.grid-item2 {
+    grid-area: grid2;
+}
+
+.grid-item3 {
+    grid-area: grid3;
+}
+
+.grid-item4 {
+    grid-area: grid4;
+}
+
+.grid-item5 {
+    grid-area: grid5;
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+/* Produkter grid design */
+
+
+.materiale-info {
+    margin-bottom: 100px;
+}
+
+.materiale-info h1 {
+    text-align: left;
+}
+
+.materiale-info p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.flex-materialer .flex-item {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flex-materialer .flex-item img {
+    width: 50%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.flex-materialer .flex-item div {
+    width: 50%;
+}
+
+.flex-materialer .flex-item div h2 {
+    margin-top: 0px;
+    font-size: x-large;
+    text-align: left;
+
+}
+
+.flex-materialer .flex-item div p {
+    text-align: left;
+}
+
+@media only screen and (min-width: 800px) {
+    .topnav {
+        background-color: #ffffff;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topnav #navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav a {
+        color: rgb(0, 0, 0);
+        padding: 55px 10px 10px;
+        font-size: 15px;
+        float: right;
+        display: block;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .flex-container {
+        background-color: #92877B;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: -50px;
+    }
+
+    .flex-produktion {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .bottom-left {
+        /* Styling af knappen på billedet*/
+        bottom: 80px;
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .bottom-right {
+        bottom: 80px;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'img img'
+        ;
+    }
+
+    .mobil_billede_container {
+        margin: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .forside {
+        width: 100%;
+    }
+
+    .logo {
+        width: 7%;
+        margin-left: 70px;
+    }
+
+    .topnav {
+        justify-content: space-between;
+    }
+
+    #navbar {
+        align-items: center;
+    }
+
+    #navbar a {
+        font-size: 20px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flex-produktion {
+        padding: 10px;
+    }
+
+    .fa-solid {
+        /* ikonerne der er blevet brugt under billedet */
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .hylde {
+        margin-top: 40px;
+    }
+
+    .container-først {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'img info'
+        ;
+        margin: 50px 0;
+    }
+
+    .container-box {
+        grid-area: info;
+    }
+
+    .container-info {
+        grid-area: img;
+    }
+
+    .container-omvendt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'info img'
+        ;
+    }
+
+    .container-box {
+        grid-area: info;
+    }
+
+    .container-info {
+        grid-area: img;
+    }
+
+    .bottom-left,
+    .bottom-right,
+    .skjul-mobil {
+        display: none;
+    }
+
+    .bottom-left-web {
+        display: inline;
+        font-size: 15px;
+        background-color: #92877B;
+        padding: 15px;
+        border: none;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        margin-left: 80px;
+        margin-bottom: 150px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .bottom-right-web {
+        display: block;
+        font-size: 15px;
+        background-color: #92877B;
+        border: none;
+        padding: 15px;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+        margin: 80px;
+        width: fit-content;
+        text-decoration: none;
+        color: black;
+    }
+
+    .container-først p {
+        text-align: left;
+        margin-left: 80px;
+        line-height: 40px;
+    }
+
+    .container-først h2 {
+        text-align: left;
+        margin-left: 80px;
+    }
+
+    .skriv {
+        width: 50%;
+    }
+
+    .mobil_billede {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 120px;
+        height: 550px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .footer p {
+        text-align: left;
+        justify-content: space-evenly;
+        line-height: 40px;
+    }
+
+    .footer h2 {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .grid-container2 {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+
+}

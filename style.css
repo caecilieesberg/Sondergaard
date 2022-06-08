@@ -204,10 +204,6 @@ footer p {
 }
 
 /* Om Søndergaard Design */
-.side-deling {
-    background-color: #c7c5c5;
-}
-
 .kasper {
   display: block;
   padding: 10px;
@@ -221,13 +217,20 @@ h1 {
     text-align: center;
 }
 
-.produkt{
+.produkt-hylde{
   display: block;
   padding: 4px;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
 }
+.produkt-æg{
+    display: block;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
 /* Produkter grid design */
 .grid-container {
     display: grid;
@@ -300,6 +303,366 @@ input{
 
 }
 
+
+.main-container {
+    margin-top: 133.3px;
+    /* Højden af navbaren*/
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.produkt-sektion {
+    padding-top: 0.2rem;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-grid {
+    display: grid; 
+  grid-template-columns: 1.4fr 0.6fr; 
+  grid-template-rows: 1fr; 
+  gap: 1em 1em; 
+  grid-template-areas: 
+    "grid20 grid21"; 
+}
+
+.mobile-view h1 {
+    margin-bottom: 3rem;
+}
+
+.mobile-view p {
+    margin-top: 3rem;
+}
+
+.mobile-view > .some {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.mobile-view .icon {
+    font-size: 3rem;
+}
+
+.grid-item20 { grid-area: grid20; }
+.grid-item21 { grid-area: grid21; }
+
+.grid-container2 {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 400px);
+    gap: 1em 1em;
+    grid-template-areas:
+        "grid10 grid10 grid11 grid11"
+        "grid10 grid10 grid12 grid12";
+}
+
+.grid-item10 {
+    grid-area: grid10;
+}
+
+.grid-item11 {
+   padding-left: 8rem;
+    grid-area: grid11;
+}
+
+.grid-item11 > h1 {
+    text-align: left;
+}
+
+.grid-item11 > p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-item11 > .some {
+    margin-top: 2rem;
+    text-align: left;
+}
+.grid-item11 .icon {
+    font-size: 3rem;
+}
+
+.grid-item12 {
+    grid-area: grid12;
+}
+
+
+.grid-container1 {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 520px 520px;
+    gap: 1rem 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid1 grid1 grid1 grid1 grid1 grid2 grid2 grid2 grid2"
+        "grid3 grid3 grid3 grid4 grid4 grid4 grid5 grid5 grid5";
+}
+
+.grid-container1 img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.grid-item1 {
+    grid-area: grid1;
+}
+
+.grid-item2 {
+    grid-area: grid2;
+}
+
+.grid-item3 {
+    grid-area: grid3;
+}
+
+.grid-item4 {
+    grid-area: grid4;
+}
+
+.grid-item5 {
+    grid-area: grid5;
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+/* Produkter grid design */
+
+
+.materiale-info {
+    margin-bottom: 100px;
+}
+
+.materiale-info h1 {
+    text-align: left;
+}
+
+.materiale-info p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.flex-materialer .flex-item {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flex-materialer .flex-item img {
+    width: 50%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.flex-materialer .flex-item div {
+    width: 50%;
+}
+
+.flex-materialer .flex-item div h2 {
+    margin-top: 0px;
+    font-size: x-large;
+    text-align: left;
+
+}
+
+.flex-materialer .flex-item div p {
+    text-align: left;
+}
+
+.main-container {
+    margin-top: 133.3px;
+    /* Højden af navbaren*/
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.produkt-sektion {
+    padding-top: 0.2rem;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.mobile-grid {
+    display: grid; 
+  grid-template-columns: 1.4fr 0.6fr; 
+  grid-template-rows: 1fr; 
+  gap: 1em 1em; 
+  grid-template-areas: 
+    "grid20 grid21"; 
+}
+
+.mobile-view h1 {
+    margin-bottom: 3rem;
+}
+
+.mobile-view p {
+    margin-top: 3rem;
+}
+
+.mobile-view > .some {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.mobile-view .icon {
+    font-size: 3rem;
+}
+
+.grid-item20 { grid-area: grid20; }
+.grid-item21 { grid-area: grid21; }
+
+.grid-container2 {
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 400px);
+    gap: 1em 1em;
+    grid-template-areas:
+        "grid10 grid10 grid11 grid11"
+        "grid10 grid10 grid12 grid12";
+}
+
+.grid-item10 {
+    grid-area: grid10;
+}
+
+.grid-item11 {
+   padding-left: 8rem;
+    grid-area: grid11;
+}
+
+.grid-item11 > h1 {
+    text-align: left;
+}
+
+.grid-item11 > p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-item11 > .some {
+    margin-top: 2rem;
+    text-align: left;
+}
+.grid-item11 .icon {
+    font-size: 3rem;
+}
+
+.grid-item12 {
+    grid-area: grid12;
+}
+
+
+.grid-container1 {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 520px 520px;
+    gap: 1rem 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid1 grid1 grid1 grid1 grid1 grid2 grid2 grid2 grid2"
+        "grid3 grid3 grid3 grid4 grid4 grid4 grid5 grid5 grid5";
+}
+
+.grid-container1 img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.grid-item1 {
+    grid-area: grid1;
+}
+
+.grid-item2 {
+    grid-area: grid2;
+}
+
+.grid-item3 {
+    grid-area: grid3;
+}
+
+.grid-item4 {
+    grid-area: grid4;
+}
+
+.grid-item5 {
+    grid-area: grid5;
+}
+
+
+.image {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+/* Produkter grid design */
+
+
+.materiale-info {
+    margin-bottom: 100px;
+}
+
+.materiale-info h1 {
+    text-align: left;
+}
+
+.materiale-info p {
+    text-align: left;
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
+}
+
+.flex-materialer .flex-item {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.flex-materialer .flex-item img {
+    width: 50%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.flex-materialer .flex-item div {
+    width: 50%;
+}
+
+.flex-materialer .flex-item div h2 {
+    margin-top: 0px;
+    font-size: x-large;
+    text-align: left;
+
+}
+
+.flex-materialer .flex-item div p {
+    text-align: left;
+}
 @media only screen and (min-width: 800px){
 .topnav {
     background-color: #ffffff;
@@ -489,6 +852,7 @@ p {
     margin-top: 120px;
     height: 550px;
 }
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -503,4 +867,75 @@ p {
 .footer h2 {
     text-align: left;
 }
+.container-omos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'img info'
+    ;
+    margin-top: 80px;
 }
+.tekst-omos {
+    grid-area: info;
+    line-height: 30px;
+}
+
+.billede-omos {
+    grid-area: img;
+}
+.container-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'info img '
+    ;
+    margin-top: 50px;
+}
+.billede-vision {
+    grid-area: img;
+}
+.tekst-vision {
+    grid-area: info;
+    line-height: 30px;
+}
+.tekst-vision h1 {
+    padding: 0;
+    margin: 0;
+}
+.kasper {
+    padding: 0;
+}
+h1 {
+    padding-top: 30px;
+}
+.omos-billeder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'img1 img2 '
+    ;
+    margin-top: 30px;
+    margin-right: 0;
+}
+.produkt-hylde {
+    grid-area: img1;
+}
+.produkt-æg {
+    grid-area: img2;
+}
+
+
+}
+@media only screen and (max-width: 1300px) {
+    .grid-container2 {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block;
+    }
+}
+
